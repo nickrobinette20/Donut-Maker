@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Donut Maker</title>
+</head>
+
+<body id="body">
+    <div id="header">
+    <h1>Welcome to the Donut Maker</h1>
+    <p>The object is to make as many donuts a possible!</p>
+    <p>Use the "Donut" button to make donuts.</p>
+    <p>Purchase Auto Clickers to scale your Donut Production.</p>
+
+
+
+
+
+
+    
+    </div>
+    <div class="buttons">
+        
+    <button id="donutButton" onclick="donutClick()">Donut</button>
+    <button id="buyAutoClickerButton" disabled onclick="buyClicker()" >Buy Auto Clicker</button>
+    <button id="resetButton" onclick="reset()">Reset</button>
+ <table class="center">
+        <tr>
+            <th id="totalDonuts">Total Donuts</th>
+            <th id="totalClickers">Total Auto Clickers</th>
+            <th id="price">Price</th> 
+        </tr>
+        <tr>
+            <th id="donutCounter"></th>
+            <th id="autoClickerCounter"></th>
+            <th id="autoClickerPrice"></th>
+        </tr>
+    </table>
+
+
+
+
+
+
+
+
+    </div>
+   
+    <footer class="footer">
+        <p id="footer1">Author: Nick Robinette
+      </footer>
+
+    
+    
+    
+
+    
+
+    <!-- <button onclick="activateAutoClickers()" >Activate Auto Clickers</button>
+    <div></div><div id="autoClickerCounter"></div> -->
+
+    <script src="DonutMaker.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

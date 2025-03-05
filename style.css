@@ -1,0 +1,137 @@
+* {
+  
+  background-repeat: no-repeat;
+}
+#body{
+  background-image: url(assets/background-donuts\ 2.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+}
+.buttons {
+  text-align: center;
+  padding: 1%;
+  border-radius: 10px;
+  border: 50px;
+  border-color: aliceblue;
+  /* background-color: light; */
+  grid-template-columns: 1fr 1fr 1fr;
+  /* outline: 2px solid black; */
+}
+
+#buyAutoClickerButton {
+  background-color: burlywood;
+  color: black;
+  padding: 5%;
+  border-radius: 10px;
+  font-size: 50px;
+
+  /* border-color:brown;
+    border-width: 5px; */
+}
+#buyAutoClickerButton:hover {
+  background-color: darkgoldenrod;
+  color: black;
+}
+#donutButton {
+  background-color: burlywood;
+  color: black;
+  padding: 5%;
+  border-radius: 10px;
+  font-size: 50px;
+  /* border-color: brown;
+    border-width: 5px; */
+}
+#donutButton:hover {
+  background-color: darkgoldenrod;
+  color: black;
+}
+#resetButton {
+  background-color: burlywood;
+  color: black;
+  padding: 5%;
+  border-radius: 10px;
+  font-size: 50px;
+  /* border-color: brown;
+    border-width: 5px; */
+}
+#resetButton:hover {
+  background-color: darkgoldenrod;
+  color: black;
+}
+
+/* .flex-container {
+  text-align: center;
+
+  padding: 5%;
+  padding-left: 0%;
+  padding-right: 0%;
+  border-radius: 10px;
+  border: 50px;
+  border-color: aliceblue;
+  grid-template-columns: 1fr 1fr 1fr;
+} */
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: chocolate;
+  color: white;
+  text-align: center;
+}
+
+#footer1 {
+  background-color:chocolate;
+  color: black;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: large;
+}
+
+#header {
+  
+  font-size: 30px;
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+#totalDonuts {
+    color: black;
+    padding: 5%;
+    font-size: 50px;
+}
+
+#donutCounter{
+    color: black;
+    padding: 5%;
+    font-size: 50px;
+}
+#totalClickers{
+    padding: 5%;
+    color: black;
+    font-size: 50px;
+}
+#price{
+    color: black;
+    padding: 5%;
+    font-size: 50px;
+}
+#autoClickerCounter{
+    color: black;
+    padding: 5%;
+    font-size: 50px;
+}
+#autoClickerPrice{
+    color: black;
+    padding: 5%;
+    font-size: 50px;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  padding: 5%;
+  outline: auto;
+  }
+
